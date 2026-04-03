@@ -8,7 +8,7 @@ This layout maps the signal flow from the Arduino to the breadboard.
 ![Circuit Layout](./assets/circuit-layout-v1.png)
 
 ## 📸 Physical Build
-The real-world implementation using the RFID Starter Kit.
+A pic of the wiring using components of the RFID  Arduino Starter Kit.
 ![Wiring Layout](./assets/wiring-photo.jpeg)
 
 ## 🛠️ Hardware Setup
@@ -17,6 +17,6 @@ The real-world implementation using the RFID Starter Kit.
 - **Protection:** 220Ω Resistor (Bridging Row 10 to 19)
 
 ## 🧠 Logic & Timing
-The code implements a basic loop with a 75% duty cycle:
-- **ON State:** 3000ms
+The code implements a basic loop with a 66.67% duty cycle:
+- **ON State:** 2000ms 
 - **OFF State:** 1000ms
