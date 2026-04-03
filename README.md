@@ -9,7 +9,7 @@ This layout maps the signal flow from the Arduino to the breadboard.
 
 ## 📸 Physical Build
 The real-world implementation using the RFID Starter Kit.
-![Wiring Layout](./assets/wiring-photo.jpg)
+![Wiring Layout](./assets/wiring-photo.jpeg)
 
 ## 🛠️ Hardware Setup
 - **Microcontroller:** Arduino Uno R3
