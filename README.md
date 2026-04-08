@@ -8,9 +8,11 @@ See the single LED blinking here: [Link to my X post](https://x.com/EmekaBuilds_
 
 ## Circuit Diagrams
 This layout maps the signal flow for the full traffic system.
+
 ![Phase 2 Layout](./assets/circuit-layout-v2.png)
 
 While, this layout maps the signal flow for the single LED (green).
+
 ![Phase 1 Layout](./assets/circuit-layout-v1.png)
 
 ## Physical Build
@@ -27,7 +29,7 @@ The evolution from a single green LED test to a full Traffic Light system.
 - **Components:** 3 LEDs (Red, Yellow, Green)
 - **Breadboard:** Shared Blue Rail for common grounding.
 - **Protection:** 3x 220Ω Resistors (One per LED to prevent burnout).
--  **Wiring:** 4x Jumper Wires (One per LED & one for Arduino GND)
+-  **Wiring:** 4x Jumper Wires (One per LED & one for the Arduino GND)
 
 ## Wiring Configuration
 | LED Color | Arduino Pin | Breadboard Row |
