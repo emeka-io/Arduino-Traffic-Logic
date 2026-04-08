@@ -27,6 +27,7 @@ The evolution from a single green LED test to a full Traffic Light system.
 - **Components:** 3 LEDs (Red, Yellow, Green)
 - **Breadboard:** Shared Blue Rail for common grounding.
 - **Protection:** 3x 220Ω Resistors (One per LED to prevent burnout).
+-  **Wiring:** 4x Jumper Wires (One per LED & one for Arduino GND)
 
 ## Wiring Configuration
 | LED Color | Arduino Pin | Breadboard Row |
