@@ -1,22 +1,39 @@
-# Arduino Traffic Logic - Phase 1
-### My first Arduino project
-## Live Demo
-See it blinking here: [Link to my X post](https://x.com/EmekaBuilds_/status/2040008618154627471?s=20)
+# Arduino Traffic Logic - Phase 1 & 2
+### My first complete Arduino project
 
-## Circuit Diagram
-This layout maps the signal flow from the Arduino to the breadboard.
-![Circuit Layout](./assets/circuit-layout-v1.png)
+## Live Demo
+See the full 3-LED sequence blinking here: [Link to my X post](https://x.com/EmekaBuilds_/status/2041866171729760302?s=20)
+
+## Circuit Diagrams
+This layout maps the signal flow for the full traffic system.
+![Phase 1 Layout](./assets/circuit-layout-v1.png)
+*(Optional: Add Phase 2 diagram here later)*
 
 ## Physical Build
-A pic of the wiring using components of the RFID  Arduino Starter Kit.
-![Wiring Layout](./assets/wiring-photo.jpeg)
+The evolution from a single green LED test to a full Traffic Light system.
+
+### Phase 2: Complete Traffic Light
+![Full System Wiring](./assets/phase-2-red-LED.jpg)
+
+### Phase 1: Initial Green LED Test
+![Initial Wiring](./assets/wiring-photo.jpeg)
 
 ## Hardware Setup
 - **Microcontroller:** Arduino Uno R3
-- **Component:** Green LED (Anode to Pin 11, Cathode to GND),Breadboard, 2x Jumper wires.
-- **Protection/Resistor:** 220Ω Resistor (Bridging Row 10 to 19)
+- **Components:** 3 LEDs (Red, Yellow, Green)
+- **Breadboard:** Shared Blue Rail for common grounding.
+- **Protection:** 3x 220Ω Resistors (One per LED to prevent burnout).
+
+## Wiring Configuration
+| LED Color | Arduino Pin | Breadboard Row |
+| :--- | :--- | :--- |
+| **Green** | Pin 11 | Row 10 |
+| **Yellow** | Pin 12 | Row 15 |
+| **Red** | Pin 13 | Row 20 |
+| **Ground** | GND | Blue Rail (-) |
 
 ## Logic & Timing
-The code implements a basic loop with a 66.67% duty cycle:
-- **ON State:** 2000ms 
-- **OFF State:** 1000ms
+The system uses a sequential loop:
+1. **Green:** 5000ms (5 seconds)
+2. **Yellow:** 1500ms (1.5 seconds)
+3. **Red:** 5000ms (5 seconds)
