@@ -9,11 +9,13 @@ See the full single LED blinking here: [Link to my X post](https://x.com/EmekaBu
 ## Circuit Diagrams
 This layout maps the signal flow for the full traffic system.
 ![Phase 2 Layout](./assets/circuit-layout-v2.png)
-While, this layout maps the signal flow for the single LED(green).
+
+While, this layout maps the signal flow for the single LED (green).
 ![Phase 1 Layout](./assets/circuit-layout-v1.png)
 
 ## Physical Build
 The evolution from a single green LED test to a full Traffic Light system.
+
 ### Phase 2: Complete Traffic Light
 ![Full System Wiring](./assets/phase-2-red-LED.jpg)
 
