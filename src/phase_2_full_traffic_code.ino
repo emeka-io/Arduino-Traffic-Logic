@@ -16,7 +16,7 @@ void loop() {
   delay(5000); 
   digitalWrite(greenLED, LOW);
 
-  // 2. YELLOW LIGHT (CAUTION) - 1.5 seconds
+  // 2. YELLOW LIGHT (CAUTION) - 2 seconds
   digitalWrite(yellowLED, HIGH);
   delay(2000); 
   digitalWrite(yellowLED, LOW);
