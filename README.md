@@ -1,4 +1,4 @@
-# Arduino Traffic Logic - Phase 1 & 2
+# Arduino Traffic Light - Phase 1 & 2
 ### My first complete Arduino project
 
 ## Live Demo
